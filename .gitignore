@@ -1,0 +1,18 @@
+# Entornos virtuales
+.venv/
+.venv-*/
+__pycache__/
+*.pyc
+
+# Datos privados (bases de datos, firmas, fotos y PDFs generados)
+*.db
+database/
+uploads/
+reports/
+
+# Copia duplicada del proyecto
+mmb_manager/
+
+# Configuración local
+.claude/
+.streamlit/secrets.toml
